@@ -1,12 +1,10 @@
-// types.ts
-
 export interface Tag {
   name: string;
   count: number;
 }
 
 export interface TagState {
-  tags: Tag[]; // Assuming Tag is an interface or type defined elsewhere
+  tags: Tag[];
   loading: boolean;
   error: string | null;
 }
@@ -21,12 +19,12 @@ interface FetchTagsRequestAction {
 
 interface FetchTagsSuccessAction {
   type: typeof FETCH_TAGS_SUCCESS;
-  payload: Tag[]; // Assuming Tag is a type/interface representing your data structure
+  payload: Tag[];
 }
 
 interface FetchTagsFailureAction {
   type: typeof FETCH_TAGS_FAILURE;
-  payload: string; // Assuming error message is a string
+  payload: string;
 }
 
 export type TagActionTypes = FetchTagsRequestAction | FetchTagsSuccessAction | FetchTagsFailureAction;

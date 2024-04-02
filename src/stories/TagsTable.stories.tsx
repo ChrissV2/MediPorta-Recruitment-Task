@@ -14,6 +14,5 @@ Default.args = {
     { name: 'Tag1', count: 10 },
     { name: 'Tag2', count: 20 },
     { name: 'Tag3', count: 30 },
-    // Add more tag objects here as needed
   ],
 };
