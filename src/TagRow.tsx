@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tr, Td } from '@chakra-ui/react';
 
-interface TagRowProps {
+export interface TagRowProps {
   tag: Tag;
 }
 

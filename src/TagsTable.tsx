@@ -2,7 +2,7 @@ import React from 'react';
 import { Table, Thead, Tbody, Tr, Th} from '@chakra-ui/react';
 import TagRow from './TagRow';
 
-interface TagsTableProps {
+export interface TagsTableProps {
   tags: Tag[];
 }
 

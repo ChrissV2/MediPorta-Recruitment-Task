@@ -1,7 +1,7 @@
 import React from 'react';
 import { Input, Select, Stack } from '@chakra-ui/react';
 
-interface FiltersProps {
+export interface FiltersProps {
   pageSize: number;
   sortBy: string;
   sortOrder: string;
